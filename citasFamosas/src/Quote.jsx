@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Quote(){
+
+    const [text, setText] = useState ('')
 
     return(
         <section>
